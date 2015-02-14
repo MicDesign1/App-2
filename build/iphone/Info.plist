@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>appicon.png</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.fullsail.instantweather</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>instantweatherapp</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>com.fullsail.instantweather</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIRequiresPersistentWiFi</key>
+	<false/>
+	<key>UIPrerenderedIcon</key>
+	<false/>
+	<key>UIStatusBarHidden</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Specify the reason for accessing the user's location information.
+                    This appears in the alert dialog when asking the user for permission to
+                    access their location.</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+	</array>
+</dict>
+</plist>

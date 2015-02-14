@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.fullsail.instantweather</id>
+    <name>Instant Weather App</name>
+    <version>1.0</version>
+    <publisher>michaelcamarata</publisher>
+    <url>http://</url>
+    <description>undefined</description>
+    <copyright>2015 by michaelcamarata</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>fe41a450-9591-493e-8eed-9f9b2dbe4a29</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>NSLocationAlwaysUsageDescription</key>
+                <string>
+                    Specify the reason for accessing the user's location information.
+                    This appears in the alert dialog when asking the user for permission to
+                    access their location.
+                </string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>3.4.1.GA</sdk-version>
+</ti:app>
